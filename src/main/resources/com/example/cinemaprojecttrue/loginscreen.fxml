@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cinemaprojecttrue.HelloController">
+   <children>
+      <TextField fx:id="Username" layoutX="226.0" layoutY="143.0" promptText="Username" />
+      <PasswordField fx:id="Password" layoutX="226.0" layoutY="188.0" promptText="Password" />
+      <Button fx:id="ConfirmLoginButton" layoutX="226.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="25.0" prefWidth="149.0" text="Log In" />
+      <Button fx:id="ReturnToOptions" layoutX="226.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleReturnToOptions" prefHeight="25.0" prefWidth="149.0" text="Return to Options" />
+      <Label fx:id="WrongDetails" layoutX="262.0" layoutY="312.0" textFill="RED" />
+   </children>
+</AnchorPane>
